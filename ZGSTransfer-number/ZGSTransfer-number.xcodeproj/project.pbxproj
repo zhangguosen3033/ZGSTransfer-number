@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1858F1C61D24E9D7008A0E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F1C51D24E9D7008A0E2E /* main.m */; };
+		1858F1C91D24E9D7008A0E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F1C81D24E9D7008A0E2E /* AppDelegate.m */; };
+		1858F1CC1D24E9D7008A0E2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F1CB1D24E9D7008A0E2E /* ViewController.m */; };
+		1858F1CF1D24E9D7008A0E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858F1CD1D24E9D7008A0E2E /* Main.storyboard */; };
+		1858F1D11D24E9D7008A0E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1858F1D01D24E9D7008A0E2E /* Assets.xcassets */; };
+		1858F1D41D24E9D7008A0E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858F1D21D24E9D7008A0E2E /* LaunchScreen.storyboard */; };
+		1858F1DF1D24E9D7008A0E2E /* ZGSTransfer_numberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F1DE1D24E9D7008A0E2E /* ZGSTransfer_numberTests.m */; };
+		1858F1EA1D24E9D7008A0E2E /* ZGSTransfer_numberUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F1E91D24E9D7008A0E2E /* ZGSTransfer_numberUITests.m */; };
+		1858F1FD1D24EACF008A0E2E /* UIButton+GSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F1FC1D24EACF008A0E2E /* UIButton+GSButton.m */; };
+		1858F2061D24ECAB008A0E2E /* AppDelegate+GSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F2051D24ECAB008A0E2E /* AppDelegate+GSCategory.m */; };
+		1858F20F1D24F021008A0E2E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F20E1D24F021008A0E2E /* SecondViewController.m */; };
+		1858F2121D24F045008A0E2E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F2111D24F045008A0E2E /* FirstViewController.m */; };
+		1858F2151D24F210008A0E2E /* UITextField+GSTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F2141D24F210008A0E2E /* UITextField+GSTextFiled.m */; };
+		1858F2181D24F44D008A0E2E /* UILabel+GSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F2171D24F44D008A0E2E /* UILabel+GSLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1858F1DB1D24E9D7008A0E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1858F1B91D24E9D7008A0E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1858F1C01D24E9D7008A0E2E;
+			remoteInfo = "ZGSTransfer-number";
+		};
+		1858F1E61D24E9D7008A0E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1858F1B91D24E9D7008A0E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1858F1C01D24E9D7008A0E2E;
+			remoteInfo = "ZGSTransfer-number";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1858F1C11D24E9D7008A0E2E /* ZGSTransfer-number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZGSTransfer-number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1858F1C51D24E9D7008A0E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1858F1C71D24E9D7008A0E2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1858F1C81D24E9D7008A0E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1858F1CA1D24E9D7008A0E2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1858F1CB1D24E9D7008A0E2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1858F1CE1D24E9D7008A0E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1858F1D01D24E9D7008A0E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1858F1D31D24E9D7008A0E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1858F1D51D24E9D7008A0E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1858F1DA1D24E9D7008A0E2E /* ZGSTransfer-numberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZGSTransfer-numberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1858F1DE1D24E9D7008A0E2E /* ZGSTransfer_numberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGSTransfer_numberTests.m; sourceTree = "<group>"; };
+		1858F1E01D24E9D7008A0E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1858F1E51D24E9D7008A0E2E /* ZGSTransfer-numberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZGSTransfer-numberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1858F1E91D24E9D7008A0E2E /* ZGSTransfer_numberUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGSTransfer_numberUITests.m; sourceTree = "<group>"; };
+		1858F1EB1D24E9D7008A0E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1858F1FB1D24EACF008A0E2E /* UIButton+GSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GSButton.h"; sourceTree = "<group>"; };
+		1858F1FC1D24EACF008A0E2E /* UIButton+GSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GSButton.m"; sourceTree = "<group>"; };
+		1858F2041D24ECAB008A0E2E /* AppDelegate+GSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+GSCategory.h"; sourceTree = "<group>"; };
+		1858F2051D24ECAB008A0E2E /* AppDelegate+GSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+GSCategory.m"; sourceTree = "<group>"; };
+		1858F20D1D24F021008A0E2E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1858F20E1D24F021008A0E2E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1858F2101D24F045008A0E2E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1858F2111D24F045008A0E2E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1858F2131D24F210008A0E2E /* UITextField+GSTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+GSTextFiled.h"; sourceTree = "<group>"; };
+		1858F2141D24F210008A0E2E /* UITextField+GSTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GSTextFiled.m"; sourceTree = "<group>"; };
+		1858F2161D24F44D008A0E2E /* UILabel+GSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GSLabel.h"; sourceTree = "<group>"; };
+		1858F2171D24F44D008A0E2E /* UILabel+GSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GSLabel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1858F1BE1D24E9D7008A0E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1858F1D71D24E9D7008A0E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1858F1E21D24E9D7008A0E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1858F1B81D24E9D7008A0E2E = {
+			isa = PBXGroup;
+			children = (
+				1858F1C31D24E9D7008A0E2E /* ZGSTransfer-number */,
+				1858F1DD1D24E9D7008A0E2E /* ZGSTransfer-numberTests */,
+				1858F1E81D24E9D7008A0E2E /* ZGSTransfer-numberUITests */,
+				1858F1C21D24E9D7008A0E2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1858F1C21D24E9D7008A0E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1858F1C11D24E9D7008A0E2E /* ZGSTransfer-number.app */,
+				1858F1DA1D24E9D7008A0E2E /* ZGSTransfer-numberTests.xctest */,
+				1858F1E51D24E9D7008A0E2E /* ZGSTransfer-numberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1858F1C31D24E9D7008A0E2E /* ZGSTransfer-number */ = {
+			isa = PBXGroup;
+			children = (
+				1858F1C71D24E9D7008A0E2E /* AppDelegate.h */,
+				1858F1C81D24E9D7008A0E2E /* AppDelegate.m */,
+				1858F1CA1D24E9D7008A0E2E /* ViewController.h */,
+				1858F1CB1D24E9D7008A0E2E /* ViewController.m */,
+				1858F2101D24F045008A0E2E /* FirstViewController.h */,
+				1858F2111D24F045008A0E2E /* FirstViewController.m */,
+				1858F20D1D24F021008A0E2E /* SecondViewController.h */,
+				1858F20E1D24F021008A0E2E /* SecondViewController.m */,
+				1858F1F71D24EA73008A0E2E /* 工具类 */,
+				1858F1CD1D24E9D7008A0E2E /* Main.storyboard */,
+				1858F1D01D24E9D7008A0E2E /* Assets.xcassets */,
+				1858F1D21D24E9D7008A0E2E /* LaunchScreen.storyboard */,
+				1858F1D51D24E9D7008A0E2E /* Info.plist */,
+				1858F1C41D24E9D7008A0E2E /* Supporting Files */,
+			);
+			path = "ZGSTransfer-number";
+			sourceTree = "<group>";
+		};
+		1858F1C41D24E9D7008A0E2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1858F1C51D24E9D7008A0E2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1858F1DD1D24E9D7008A0E2E /* ZGSTransfer-numberTests */ = {
+			isa = PBXGroup;
+			children = (
+				1858F1DE1D24E9D7008A0E2E /* ZGSTransfer_numberTests.m */,
+				1858F1E01D24E9D7008A0E2E /* Info.plist */,
+			);
+			path = "ZGSTransfer-numberTests";
+			sourceTree = "<group>";
+		};
+		1858F1E81D24E9D7008A0E2E /* ZGSTransfer-numberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1858F1E91D24E9D7008A0E2E /* ZGSTransfer_numberUITests.m */,
+				1858F1EB1D24E9D7008A0E2E /* Info.plist */,
+			);
+			path = "ZGSTransfer-numberUITests";
+			sourceTree = "<group>";
+		};
+		1858F1F71D24EA73008A0E2E /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				1858F1FB1D24EACF008A0E2E /* UIButton+GSButton.h */,
+				1858F1FC1D24EACF008A0E2E /* UIButton+GSButton.m */,
+				1858F2041D24ECAB008A0E2E /* AppDelegate+GSCategory.h */,
+				1858F2051D24ECAB008A0E2E /* AppDelegate+GSCategory.m */,
+				1858F2131D24F210008A0E2E /* UITextField+GSTextFiled.h */,
+				1858F2141D24F210008A0E2E /* UITextField+GSTextFiled.m */,
+				1858F2161D24F44D008A0E2E /* UILabel+GSLabel.h */,
+				1858F2171D24F44D008A0E2E /* UILabel+GSLabel.m */,
+			);
+			name = "工具类";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1858F1C01D24E9D7008A0E2E /* ZGSTransfer-number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1858F1EE1D24E9D7008A0E2E /* Build configuration list for PBXNativeTarget "ZGSTransfer-number" */;
+			buildPhases = (
+				1858F1BD1D24E9D7008A0E2E /* Sources */,
+				1858F1BE1D24E9D7008A0E2E /* Frameworks */,
+				1858F1BF1D24E9D7008A0E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZGSTransfer-number";
+			productName = "ZGSTransfer-number";
+			productReference = 1858F1C11D24E9D7008A0E2E /* ZGSTransfer-number.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1858F1D91D24E9D7008A0E2E /* ZGSTransfer-numberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1858F1F11D24E9D7008A0E2E /* Build configuration list for PBXNativeTarget "ZGSTransfer-numberTests" */;
+			buildPhases = (
+				1858F1D61D24E9D7008A0E2E /* Sources */,
+				1858F1D71D24E9D7008A0E2E /* Frameworks */,
+				1858F1D81D24E9D7008A0E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1858F1DC1D24E9D7008A0E2E /* PBXTargetDependency */,
+			);
+			name = "ZGSTransfer-numberTests";
+			productName = "ZGSTransfer-numberTests";
+			productReference = 1858F1DA1D24E9D7008A0E2E /* ZGSTransfer-numberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1858F1E41D24E9D7008A0E2E /* ZGSTransfer-numberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1858F1F41D24E9D7008A0E2E /* Build configuration list for PBXNativeTarget "ZGSTransfer-numberUITests" */;
+			buildPhases = (
+				1858F1E11D24E9D7008A0E2E /* Sources */,
+				1858F1E21D24E9D7008A0E2E /* Frameworks */,
+				1858F1E31D24E9D7008A0E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1858F1E71D24E9D7008A0E2E /* PBXTargetDependency */,
+			);
+			name = "ZGSTransfer-numberUITests";
+			productName = "ZGSTransfer-numberUITests";
+			productReference = 1858F1E51D24E9D7008A0E2E /* ZGSTransfer-numberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1858F1B91D24E9D7008A0E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张国森";
+				TargetAttributes = {
+					1858F1C01D24E9D7008A0E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1858F1D91D24E9D7008A0E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1858F1C01D24E9D7008A0E2E;
+					};
+					1858F1E41D24E9D7008A0E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1858F1C01D24E9D7008A0E2E;
+					};
+				};
+			};
+			buildConfigurationList = 1858F1BC1D24E9D7008A0E2E /* Build configuration list for PBXProject "ZGSTransfer-number" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1858F1B81D24E9D7008A0E2E;
+			productRefGroup = 1858F1C21D24E9D7008A0E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1858F1C01D24E9D7008A0E2E /* ZGSTransfer-number */,
+				1858F1D91D24E9D7008A0E2E /* ZGSTransfer-numberTests */,
+				1858F1E41D24E9D7008A0E2E /* ZGSTransfer-numberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1858F1BF1D24E9D7008A0E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858F1D41D24E9D7008A0E2E /* LaunchScreen.storyboard in Resources */,
+				1858F1D11D24E9D7008A0E2E /* Assets.xcassets in Resources */,
+				1858F1CF1D24E9D7008A0E2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1858F1D81D24E9D7008A0E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1858F1E31D24E9D7008A0E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1858F1BD1D24E9D7008A0E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858F20F1D24F021008A0E2E /* SecondViewController.m in Sources */,
+				1858F2181D24F44D008A0E2E /* UILabel+GSLabel.m in Sources */,
+				1858F2151D24F210008A0E2E /* UITextField+GSTextFiled.m in Sources */,
+				1858F1CC1D24E9D7008A0E2E /* ViewController.m in Sources */,
+				1858F2121D24F045008A0E2E /* FirstViewController.m in Sources */,
+				1858F2061D24ECAB008A0E2E /* AppDelegate+GSCategory.m in Sources */,
+				1858F1FD1D24EACF008A0E2E /* UIButton+GSButton.m in Sources */,
+				1858F1C91D24E9D7008A0E2E /* AppDelegate.m in Sources */,
+				1858F1C61D24E9D7008A0E2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1858F1D61D24E9D7008A0E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858F1DF1D24E9D7008A0E2E /* ZGSTransfer_numberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1858F1E11D24E9D7008A0E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1858F1EA1D24E9D7008A0E2E /* ZGSTransfer_numberUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1858F1DC1D24E9D7008A0E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1858F1C01D24E9D7008A0E2E /* ZGSTransfer-number */;
+			targetProxy = 1858F1DB1D24E9D7008A0E2E /* PBXContainerItemProxy */;
+		};
+		1858F1E71D24E9D7008A0E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1858F1C01D24E9D7008A0E2E /* ZGSTransfer-number */;
+			targetProxy = 1858F1E61D24E9D7008A0E2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1858F1CD1D24E9D7008A0E2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1858F1CE1D24E9D7008A0E2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1858F1D21D24E9D7008A0E2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1858F1D31D24E9D7008A0E2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1858F1EC1D24E9D7008A0E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1858F1ED1D24E9D7008A0E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1858F1EF1D24E9D7008A0E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZGSTransfer-number/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aolian.ZGSTransfer-number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1858F1F01D24E9D7008A0E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZGSTransfer-number/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aolian.ZGSTransfer-number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1858F1F21D24E9D7008A0E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZGSTransfer-numberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aolian.ZGSTransfer-numberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSTransfer-number.app/ZGSTransfer-number";
+			};
+			name = Debug;
+		};
+		1858F1F31D24E9D7008A0E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZGSTransfer-numberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aolian.ZGSTransfer-numberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSTransfer-number.app/ZGSTransfer-number";
+			};
+			name = Release;
+		};
+		1858F1F51D24E9D7008A0E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZGSTransfer-numberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aolian.ZGSTransfer-numberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZGSTransfer-number";
+			};
+			name = Debug;
+		};
+		1858F1F61D24E9D7008A0E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZGSTransfer-numberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aolian.ZGSTransfer-numberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZGSTransfer-number";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1858F1BC1D24E9D7008A0E2E /* Build configuration list for PBXProject "ZGSTransfer-number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858F1EC1D24E9D7008A0E2E /* Debug */,
+				1858F1ED1D24E9D7008A0E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1858F1EE1D24E9D7008A0E2E /* Build configuration list for PBXNativeTarget "ZGSTransfer-number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858F1EF1D24E9D7008A0E2E /* Debug */,
+				1858F1F01D24E9D7008A0E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1858F1F11D24E9D7008A0E2E /* Build configuration list for PBXNativeTarget "ZGSTransfer-numberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858F1F21D24E9D7008A0E2E /* Debug */,
+				1858F1F31D24E9D7008A0E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1858F1F41D24E9D7008A0E2E /* Build configuration list for PBXNativeTarget "ZGSTransfer-numberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858F1F51D24E9D7008A0E2E /* Debug */,
+				1858F1F61D24E9D7008A0E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1858F1B91D24E9D7008A0E2E /* Project object */;
+}
