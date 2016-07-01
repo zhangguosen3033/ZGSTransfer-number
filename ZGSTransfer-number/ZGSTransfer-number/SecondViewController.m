@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "UITextField+GSTextFiled.h"
 #import "AppDelegate.h"
+#import "SingleTon.h"
 @interface SecondViewController ()
 {
     UITextField *_Filed;
@@ -51,11 +52,11 @@
 //    //方法2.利用代理实现传值
 //    [self Transfermethod2];
  
-//    //通知传值
+//    //方法3.通知传值
 //    [self Transfermethod3];
     
-    //单例传值
-    [self Transfermethod4];
+//    //方法4.单例传值
+//    [self Transfermethod4];
     
     [self Transfermethod5];
     
@@ -94,10 +95,10 @@
      */
 
  
-    if (_delegate && [_delegate respondsToSelector:@selector(showText:)]) {
+//    if (_delegate && [_delegate respondsToSelector:@selector(showText:)]) {
         //6.驱动方驱动代理调用协议方法
         [_delegate showText:_Filed.text];
-    }
+//    }
     
     UIColor *color = [_delegate colorForShowText:_Filed.text];
     self.view.backgroundColor = color;
@@ -149,7 +150,12 @@
 #pragma mark -单例传值
 -(void)Transfermethod4{
     
+    SingleTon *singel =[SingleTon GSsharesingeleTon];
     
+    singel.ShowText = _Filed.text;
+    
+    //退出当前界面
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 

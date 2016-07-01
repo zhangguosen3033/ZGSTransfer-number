@@ -21,6 +21,7 @@
 		1858F2121D24F045008A0E2E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F2111D24F045008A0E2E /* FirstViewController.m */; };
 		1858F2151D24F210008A0E2E /* UITextField+GSTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F2141D24F210008A0E2E /* UITextField+GSTextFiled.m */; };
 		1858F2181D24F44D008A0E2E /* UILabel+GSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858F2171D24F44D008A0E2E /* UILabel+GSLabel.m */; };
+		18FB11861D25F41F00E9A563 /* SingleTon.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB11851D25F41F00E9A563 /* SingleTon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		1858F2141D24F210008A0E2E /* UITextField+GSTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GSTextFiled.m"; sourceTree = "<group>"; };
 		1858F2161D24F44D008A0E2E /* UILabel+GSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GSLabel.h"; sourceTree = "<group>"; };
 		1858F2171D24F44D008A0E2E /* UILabel+GSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GSLabel.m"; sourceTree = "<group>"; };
+		18FB11841D25F41F00E9A563 /* SingleTon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTon.h; sourceTree = "<group>"; };
+		18FB11851D25F41F00E9A563 /* SingleTon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,7 @@
 				1858F2111D24F045008A0E2E /* FirstViewController.m */,
 				1858F20D1D24F021008A0E2E /* SecondViewController.h */,
 				1858F20E1D24F021008A0E2E /* SecondViewController.m */,
+				18FB11831D25F3E300E9A563 /* 单例 */,
 				1858F1F71D24EA73008A0E2E /* 工具类 */,
 				1858F1CD1D24E9D7008A0E2E /* Main.storyboard */,
 				1858F1D01D24E9D7008A0E2E /* Assets.xcassets */,
@@ -176,6 +180,15 @@
 				1858F2171D24F44D008A0E2E /* UILabel+GSLabel.m */,
 			);
 			name = "工具类";
+			sourceTree = "<group>";
+		};
+		18FB11831D25F3E300E9A563 /* 单例 */ = {
+			isa = PBXGroup;
+			children = (
+				18FB11841D25F41F00E9A563 /* SingleTon.h */,
+				18FB11851D25F41F00E9A563 /* SingleTon.m */,
+			);
+			name = "单例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1858F20F1D24F021008A0E2E /* SecondViewController.m in Sources */,
+				18FB11861D25F41F00E9A563 /* SingleTon.m in Sources */,
 				1858F2181D24F44D008A0E2E /* UILabel+GSLabel.m in Sources */,
 				1858F2151D24F210008A0E2E /* UITextField+GSTextFiled.m in Sources */,
 				1858F1CC1D24E9D7008A0E2E /* ViewController.m in Sources */,

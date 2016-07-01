@@ -10,7 +10,7 @@
 #import "UIButton+GSButton.h"
 #import "SecondViewController.h"
 #import "UILabel+GSLabel.m"
-
+#import "SingleTon.h"
 #import "AppDelegate.h"
 @interface FirstViewController ()<ShowTextDelegate>//3.遵循协议<让代理知道要执行的约定方法>
 
@@ -30,7 +30,13 @@
 //    AppDelegate *appdelegate = [UIApplication sharedApplication].delegate;
 //    
 //    _label.text = appdelegate.showText;
+
     
+    
+//    //单例方法传值
+//    SingleTon *single = [SingleTon GSsharesingeleTon];
+//    
+//    _label.text=single.ShowText;
 }
 
 - (void)viewDidLoad {
@@ -93,10 +99,9 @@
 //    
 //    return [UIColor greenColor];
 //}
-//接收到通知时调用的方法
-
 
 #pragma mark -通知方式传值
+//接收到通知时调用的方法
 //-(void)showText:(NSNotification *)notify
 //{
 //    
