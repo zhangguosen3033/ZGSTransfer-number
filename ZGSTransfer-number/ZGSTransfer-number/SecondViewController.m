@@ -58,6 +58,7 @@
 //    //方法4.单例传值
 //    [self Transfermethod4];
     
+    //block有时间再补上
     [self Transfermethod5];
     
     
